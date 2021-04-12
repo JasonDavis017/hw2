@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="md:flex p-3 bg-black text-white">
+        <div class="md:w-1/2 text-center md:text-left pb-3">
+            <h1 class="text-3xl text-white">Skate Shop</h1>
+            <p class="text-white">Your one stop shop for skateboards and skateboard apparel.</p>
+        </div>
+        <div class="md:w-1/2 text-center md:text-right">
+            <ul>
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="page2.html" class="hover:underline">Shop Skateboards</a></li>
+                <li><a href="page3.html" class="hover:underline">Shop Apparel</a></li>
+            </ul>
+        </div>  
+    </div>
+    <div>
+        <h2 class="text-center md:text-left pt-5 pl-10 pr-10 text-2xl">About Us</h2>
+        <img class="pt-5 pl-10 pr-10 mx-auto w-full md:w-1/2" src="startskateing.jpg">
+        <p class=" pt-5 pl-10 pr-10 pb-10">Skate Shop was founded in 2021 to make it easy for new skateboarders to find the best gear to start skateboarding. We have carefully curated a selection of skateboards and skateboarding apparel inspired by the Northern California skate scene that is perfect for beginners. If you have any questions about our assortment or need help finding the right products, fill out the contact form below.</p>
+    </div>
+    <div class=" pt-5 pl-10 pr-10 pb-10 bg-gray-300">
+        <h3 class="text-xl">Contact Us</h3>
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Your Name</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="name" name="name">
+
+            <label class="block mt-4 font-bold" for="email">Your Email</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="email" name="email">
+
+            <label class="block mt-4 font-bold" for="order">What do you need help with?</label>
+            <input class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500 pb-10" type="text" id="help" name="help">
+          
+            <button class="block mt-4 text-white bg-black rounded px-4 py-2">Submit</button>
+          </form>
+    </div>
+</body>
+</html>
